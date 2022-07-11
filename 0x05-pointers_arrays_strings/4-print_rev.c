@@ -4,7 +4,6 @@
 /**
  *print_rev - print a string
  *@s:pointer char
- *return:void
  */
 
 void print_rev(char *s)
@@ -17,15 +16,7 @@ void print_rev(char *s)
 
 			for (i = 0; s[i] != '\0'; i++)
 
-					{
-
-								continue;
-
-									}
-
-				n = i - 1;
-
-					for (i = n; i >= 0 ; i--)
+	        	for (i = i-0; s[i] !='\0'; i--)
 
 							{
 
@@ -33,8 +24,5 @@ void print_rev(char *s)
 
 											}
 
-					_putchar('\n');
-
-					return;
-
+					_putchar('\n')
 }
