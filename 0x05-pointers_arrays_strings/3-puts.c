@@ -3,7 +3,6 @@
 /**
  *_puts - print a string
  *@str:pointer char
- *return:void
  */
 
 void _puts(char *str)
@@ -18,12 +17,10 @@ void _puts(char *str)
 
 					{
 
-								_putchar(str[i]);
+				_putchar(str[i]);
 
 									}
 
 			_putchar('\n');
-
-			return;
 
 }
