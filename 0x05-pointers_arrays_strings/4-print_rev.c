@@ -1,7 +1,5 @@
 #include "main1.h"
 
-
-
 /**
  *print_rev - print a string
  *@s:pointer char
@@ -18,21 +16,18 @@ void print_rev(char *s)
 
 			for (i = 0; s[i] != '\0'; i++)
 
-					{
+		         	{
 
-							;
+					continue;
+                                 }
 
-									}
+		n = i - 1;
 
-				n = i - 1 ;
-
-					for (i = n; i >= 0 ; i--)
-
-							{
-
-										_putchar(s[i]);
-
-											}
+	                 for (i = n; i >= 0 ; i--)
+		
+               			{                         
+	                 			_putchar(s[i]);
+				}
 
 					_putchar('\n');
 
