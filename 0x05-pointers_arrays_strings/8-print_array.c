@@ -2,19 +2,12 @@
 
 #include <stdio.h>
 
-
-
 /**
- *
- *  * print_array - display array
- *
- *   * @a:integer
- *
- *    * @n:integer
- *
- *     *Return:void
- *
- *      */
+ *print_array - display array
+ * @a:integer
+ * @n:integer
+ * Return:void
+  */
 
 void print_array(int *a, int n)
 
