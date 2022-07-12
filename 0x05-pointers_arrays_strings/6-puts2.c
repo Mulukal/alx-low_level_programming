@@ -3,14 +3,10 @@
 
 
 /**
- *
- *  * puts2 - print  every other character of a string
- *
- *   * @str:pointer char
- *
- *    * return:void
- *
- *     */
+ * puts2 - print  every other character of a string
+ * @str:pointer char
+ * return:void
+ */
 
 void puts2(char *str)
 
