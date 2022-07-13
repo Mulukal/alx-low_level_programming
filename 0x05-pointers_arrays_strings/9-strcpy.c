@@ -17,7 +17,7 @@ char *_strcpy(char *dest, char *src)
 
 	i = 0;
 
-		while (src[i])
+		while (src[i] !='\0' && i<n )
 
 				{
 
@@ -26,8 +26,12 @@ char *_strcpy(char *dest, char *src)
 									i++;
 
 										}
-
+ while (i<n)
+ {
 		dest[i] = '\0';
+		i++;
+ 
+ }
 
 		return (dest);
 
