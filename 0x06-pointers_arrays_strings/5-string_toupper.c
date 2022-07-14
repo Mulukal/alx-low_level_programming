@@ -22,4 +22,3 @@ char *string_toupper(char *ch)
 	}
 	return (ch);
 }
-
