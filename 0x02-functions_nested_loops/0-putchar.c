@@ -1,19 +1,31 @@
-#include <main.h>
+#include <unistd.h>
+
+#include "main.h"
+
 /**
- * main : prints putchar 
- * Return : 0 ;
- */
-int main (void)
+ *
+ *  *  * main - Check description
+ *
+ *   *   * Description: It prints the word putchar, followed by a new line.
+ *
+ *    *    * Return: 0.
+ *
+ *     *     **/
+
+int main(void)
+
 {
-	_putchar('_');
-	_putchar('p');
-	_Putchar('u');
-	_Putchar('t');
-	_Putchar('c');
-	_Putchar('h');
-	_Putchar('a');
-	_Putchar('r');
 
-  Return (0);
+	char word[8] = "_putchar";
+
+	int i;
+
+	for  (i = 0; i < 8; i++)
+
+		_putchar(word[i]);
+
+	_putchar('\n');
+
+	return (0);
+
 }
-

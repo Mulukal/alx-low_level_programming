@@ -5,7 +5,7 @@
  * @dest:char
  * @src:char
  * Return:char
-  */
+ */
 
 char *_strcpy(char *dest, char *src)
 
@@ -17,19 +17,18 @@ char *_strcpy(char *dest, char *src)
 
 	i = 0;
 
-		while (src[i] !='\0' && i<n )
+		while (src[i] !='\0' && i < n )
 
 				{
 
 							dest[i] = src[i];
 
-									i++;
-
+								i++;
 										}
- while (i<n)
- {
-		dest[i] = '\0';
-		i++;
+                                while (i<n)
+                 {
+		               dest[i] = '\0';
+	                     	i++;
  
  }
 
